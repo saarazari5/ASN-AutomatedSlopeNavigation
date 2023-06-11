@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/saarazari/Desktop/EspCommApp/EspCommApp.Android/EspCommApp.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/saarazari/Desktop/EspCommApp/EspCommApp.Android/EspCommApp.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/saarazari/Desktop/EspCommApp/EspCommApp.Android/EspCommApp.Android.csproj",
+        "projectName": "EspCommApp.Android",
+        "projectPath": "/Users/saarazari/Desktop/EspCommApp/EspCommApp.Android/EspCommApp.Android.csproj",
+        "packagesPath": "/Users/saarazari/.nuget/packages/",
+        "outputPath": "/Users/saarazari/Desktop/EspCommApp/EspCommApp.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/saarazari/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {
+              "/Users/saarazari/Desktop/EspCommApp/EspCommApp/EspCommApp.csproj": {
+                "projectPath": "/Users/saarazari/Desktop/EspCommApp/EspCommApp/EspCommApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "System.Threading.Tasks.Dataflow": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.TensorFlow.Lite": {
+              "target": "Package",
+              "version": "[2.6.0.2, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/saarazari/Desktop/EspCommApp/EspCommApp/EspCommApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/saarazari/Desktop/EspCommApp/EspCommApp/EspCommApp.csproj",
+        "projectName": "EspCommApp",
+        "projectPath": "/Users/saarazari/Desktop/EspCommApp/EspCommApp/EspCommApp.csproj",
+        "packagesPath": "/Users/saarazari/.nuget/packages/",
+        "outputPath": "/Users/saarazari/Desktop/EspCommApp/EspCommApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/saarazari/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "EmbedIO": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2578, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/saarazari/Library/Caches/VisualStudio/17.0/MSBuild/75451_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
